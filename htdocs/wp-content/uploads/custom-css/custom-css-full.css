@@ -1,0 +1,88 @@
+/* 
+    This is to get rid of the background image and to change the background color
+    to white since this is not an option in the Willbridge theme editor 
+*/
+body {
+    background-image: none !important;
+    background-color: #fff;
+}
+
+/*
+    This is to change the background of the navigation  tags to the brown color
+    instead of the image that is a shadow by default with the Willbridge theme.
+*/
+#navigation > li > a > span {
+    background-image: none !important;
+    background-color: #503A37;
+}
+
+/*
+    These next few rules are to change the color at the bottom of the navigation
+    links according to the style guide.  They each have their own rule because
+    they each have their own color.  If they all had one color, there wouldn\'t be
+    a need to have these.
+*/
+#navigation > li:first-child > a, 
+#navigation > li.current-menu-ancestor > a, 
+#navigation > li:hover:first-child > a:hover, 
+#navigation > li:hover:first-child > a {
+    background-color: #8EB8C8;
+}
+
+#navigation > li:nth-child(2) > a, 
+#navigation > li.current-menu-ancestor > a, 
+#navigation > li:hover:nth-child(2) > a:hover, 
+#navigation > li:hover:nth-child(2) > a{
+    background-color: #EBAD21;
+}
+
+#navigation > li:nth-child(3) > a , 
+#navigation > li.current-menu-ancestor > a, 
+#navigation > li:hover:nth-child(3) > a:hover, 
+#navigation > li:hover:nth-child(3) > a{
+    background-color: #A9B437;
+}
+
+#navigation > li:nth-child(4) > a , 
+#navigation > li.current-menu-ancestor > a, 
+#navigation > li:hover:nth-child(4) > a:hover, 
+#navigation > li:hover:nth-child(4) > a{
+    background-color: #B33A41;
+}
+
+#navigation > li:nth-child(5) > a , 
+#navigation > li.current-menu-ancestor > a, 
+#navigation > li:hover:nth-child(5) > a:hover, 
+#navigation > li:hover:nth-child(5) > a{
+    background-color: #8EB8C8;
+}
+/* End of color changes for the navigation links, started on line 25 */
+
+/* This is to change the footer area so that the BYU-I logo is shown correctly. */
+#footer {
+    height: 110px !important;
+}
+
+.footer_inner {
+    height: 50px !important;
+}
+/* End of footer hieght size changes */
+
+/* Changing the margins for the Social media and BYUI logo */
+.social_list {
+    float: left;
+}
+
+.social_list li {
+    margin-right: 10px;
+}
+
+#BYUI_logo {
+    float: right;
+    display: block;
+    padding-left: 10px;
+    border-left-style: solid;
+    border-color: #503a37;
+    border-width: 1px;
+}
+/* End of the social media margins changes */
