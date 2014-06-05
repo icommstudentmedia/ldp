@@ -86,3 +86,10 @@ body {
     border-width: 1px;
 }
 /* End of the social media margins changes */
+
+/* This changes the figure size for the thumbnail pictures */
+footer>figure {
+    width: 160px;
+    height: 120px;
+}
+/* End Thumbnail image size change */
