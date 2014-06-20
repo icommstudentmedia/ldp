@@ -88,7 +88,7 @@ body {
 /* End of the social media margins changes */
 
 /* This changes the figure size for the thumbnail pictures */
-footer>figure {
+footer>figure, footer>div>figure {
     width: 160px;
     height: 120px;
 }
