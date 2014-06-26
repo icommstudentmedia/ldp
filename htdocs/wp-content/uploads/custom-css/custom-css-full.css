@@ -93,3 +93,10 @@ footer>figure, footer>div>figure {
     height: 120px;
 }
 /* End Thumbnail image size change */
+
+/* This is to change the distance that the sub menu under Seasons so that there
+   is no longer a gap */
+#navigation > li >ul {
+    top: 63px !important;
+}
+/* End of the sub menu distance change */
