@@ -100,3 +100,11 @@ footer>figure, footer>div>figure {
     top: 63px !important;
 }
 /* End of the sub menu distance change */
+
+/* This is to keep the descriptions of the post on the different filtered
+   Seasons pages, i.e. Seasons 1-5, Seasons 6-10, etc., from running off
+   the pages. */
+.entry-content {
+    word-wrap: break-word;
+}
+/* End Description line breaking for filtered pages. */
