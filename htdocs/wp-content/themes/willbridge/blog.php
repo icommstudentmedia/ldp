@@ -124,13 +124,15 @@ $selected_order_type = get_post_meta(get_the_ID(), 'selected_order_type', true);
 	
 	wp_reset_query();
 	
+       /* We don't want the comments on the default blog pages, only on the individual posts.
+	
 	if (comments_open()) {
 		echo '<br />' . 
 		'<div class="divider"></div>';
 		
 		comments_template();
 	}
-	
+	*/
 	echo '</section>';
 ?>
 <!-- _________________________ Finish Content _________________________ -->

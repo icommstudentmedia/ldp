@@ -99,6 +99,10 @@ footer>figure, footer>div>figure {
 #navigation > li >ul {
     top: 63px !important;
 }
+
+.navi_scrolled #navigation > li > ul {
+    top: 58px !important;
+}
 /* End of the sub menu distance change */
 
 /* This is to keep the descriptions of the post on the different filtered

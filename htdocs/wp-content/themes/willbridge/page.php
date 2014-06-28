@@ -61,8 +61,10 @@ if (!$page_layout) {
 		echo '</div>';
 	endif;
 	
-	comments_template();
-	
+        /* We don't want the comments on the default pages
+	//comments_template();
+	*/
+
 	echo '</section>';
 ?>
 <!-- _________________________ Finish Content _________________________ -->
