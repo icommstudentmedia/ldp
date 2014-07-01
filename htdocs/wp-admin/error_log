@@ -1,0 +1,1 @@
+[01-Jul-2014 05:25:38 UTC] PHP Fatal error:  Call to undefined function register_setting() in /home2/soapboxn/public_html/latterdayprofiles/wp-content/plugins/wp-posts-filter/wp-posts-filter.php on line 70
