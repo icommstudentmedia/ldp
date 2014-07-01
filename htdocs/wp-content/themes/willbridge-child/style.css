@@ -1,0 +1,35 @@
+/*
+Theme Name: Willbridge Child
+Theme URI: http://willbridge.cmsmasters.net/
+Author: cmsmasters
+Author URI: http://cmsmasters.net/
+Template: willbridge
+Description: This is to include specific templates that won't get lost with updates to the 
+             Willbridge theme for WordPress created by CMSMasters is sophisticated, lightweight, 
+             and adaptable. Make it yours with a custom menus, cmsmasters custom shortcodes, 
+             widgets, sidebars, sliders and contact forms, then go further with our available 
+             theme options for custom text colors and size, portfolio settings and blog settings. 
+             Willbridge comes equipped with a Blog, Portfolio and Sitemap page templates, an 
+             exclusive CMSMasters Responsive Slider that adapt to any screen resolution and support 
+             video slides with video from youtube.com and vimeo.com, widget support galore (sidebar, 
+             top sidebar, middle sidebar, bottom sidebar), and many custom widgets and sidebars. 
+             The Willbridge theme has a special responsive (adaptive) design that alows it to 
+             adapt for any device screen resolution, besides this theme use modern html5 template, 
+             css3 rules and microformats for better SEO.
+Version: 0.1
+Tags: dark, light, white, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, 
+      featured-images, sticky-post, custom-colors, post-formats, responsive-slider, custom-menu, 
+      theme-options, slider-manager, form-builder, custom-widgets, custom-shortcodes, 
+      translation-ready, seo-optimized, responsive, adaptive, html5, css3, microformats
+*/
+
+/*
+For older themes, and themes that do not use wp_enqueue_style() to enqueue their stylesheet,
+use the following line where twentyfourteen is the name of the directory where the theme 
+resides:
+*/
+@import url("../willbridge/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */

@@ -112,3 +112,16 @@ footer>figure, footer>div>figure {
     word-wrap: break-word;
 }
 /* End Description line breaking for filtered pages. */
+
+/* Change the width of the home page video/description so that it is not so 
+   large, as well as change the color of the titile. */
+#front_page_content {
+    max-width: 1000px;
+}
+#front_page_content > h1 {
+    color: #EBAD21;
+}
+#brightcove-video {
+    margin-bottom: 10px;
+}
+/* End of width and color change to home page. */
