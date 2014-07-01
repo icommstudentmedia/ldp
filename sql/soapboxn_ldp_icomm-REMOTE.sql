@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost/ldp/htdocs', 'yes'),
+(1, 'siteurl', 'http://www.latterdayprofiles.org', 'yes'),
 (2, 'blogname', 'Latter-Day Profiles', 'yes'),
 (3, 'blogdescription', 'Latter-day Profiles is an interview program that airs Sundays at 11:35 Mountain Time on BYUTV.', 'yes'),
 (4, 'users_can_register', '0', 'yes'),
@@ -141,7 +141,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (30, 'blog_charset', 'UTF-8', 'yes'),
 (31, 'moderation_keys', '', 'no'),
 (32, 'active_plugins', 'a:4:{i:0;s:19:"akismet/akismet.php";i:1;s:53:"brightcove-video-library/brightcove-video-library.php";i:2;s:45:"imporved-simpler-css/improved-simpler-css.php";i:3;s:35:"wp-posts-filter/wp-posts-filter.php";}', 'yes'),
-(33, 'home', 'http://localhost/ldp/htdocs', 'yes'),
+(33, 'home', 'http://www.latterdayprofiles.org', 'yes'),
 (34, 'category_base', '', 'yes'),
 (35, 'ping_sites', 'http://rpc.pingomatic.com/', 'yes'),
 (36, 'advanced_edit', '0', 'yes'),
