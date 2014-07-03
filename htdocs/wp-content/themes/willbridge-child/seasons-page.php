@@ -44,11 +44,11 @@ if ($season_end > $season_start) {
    }
 } else {
    ?>
-   <h1><a href="http://localhost/ldp/htdocs/seasons/?seasonstart=1&amp;seasonend=5">Seasons 1-5</a></h1>
-   <h1><a href="http://localhost/ldp/htdocs/seasons/?seasonstart=6&amp;seasonend=10">Seasons 6-10</a></h1>
-   <h1><a href="http://localhost/ldp/htdocs/seasons/?seasonstart=11&amp;seasonend=15">Seasons 11-15</a></h1>
-   <h1><a href="http://localhost/ldp/htdocs/seasons/?seasonstart=16&amp;seasonend=20">Seasons 16-20</a></h1>
-   <h1><a href="http://localhost/ldp/htdocs/seasons/?seasonstart=21&amp;seasonend=21">Season 21</a></h1>
+   <h1><a href="http://www.latterdayprofiles.org/seasons/?seasonstart=1&amp;seasonend=5">Seasons 1-5</a></h1>
+   <h1><a href="http://www.latterdayprofiles.org/seasons/?seasonstart=6&amp;seasonend=10">Seasons 6-10</a></h1>
+   <h1><a href="http://www.latterdayprofiles.org/seasons/?seasonstart=11&amp;seasonend=15">Seasons 11-15</a></h1>
+   <h1><a href="http://www.latterdayprofiles.org/seasons/?seasonstart=16&amp;seasonend=20">Seasons 16-20</a></h1>
+   <h1><a href="http://www.latterdayprofiles.org/seasons/?seasonstart=21&amp;seasonend=21">Season 21</a></h1>
    <?php
 }
 

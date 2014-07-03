@@ -16,6 +16,11 @@ body {
     background-color: #503A37;
 }
 
+.nav_wrap_inner.navi_scrolled,
+.responsibe_block {
+background-color: #503a37 !important;
+}
+
 /*
     These next few rules are to change the color at the bottom of the navigation
     links according to the style guide.  They each have their own rule because
@@ -26,35 +31,35 @@ body {
 #navigation > li.current-menu-ancestor > a, 
 #navigation > li:hover:first-child > a:hover, 
 #navigation > li:hover:first-child > a {
-    background-color: #8EB8C8;
+    background-color: #8EB8C8 !important;
 }
 
 #navigation > li:nth-child(2) > a, 
 #navigation > li.current-menu-ancestor > a, 
 #navigation > li:hover:nth-child(2) > a:hover, 
 #navigation > li:hover:nth-child(2) > a{
-    background-color: #EBAD21;
+    background-color: #EBAD21 !important;
 }
 
 #navigation > li:nth-child(3) > a , 
 #navigation > li.current-menu-ancestor > a, 
 #navigation > li:hover:nth-child(3) > a:hover, 
 #navigation > li:hover:nth-child(3) > a{
-    background-color: #A9B437;
+    background-color: #A9B437 !important;
 }
 
 #navigation > li:nth-child(4) > a , 
 #navigation > li.current-menu-ancestor > a, 
 #navigation > li:hover:nth-child(4) > a:hover, 
 #navigation > li:hover:nth-child(4) > a{
-    background-color: #B33A41;
+    background-color: #B33A41 !important;
 }
 
 #navigation > li:nth-child(5) > a , 
 #navigation > li.current-menu-ancestor > a, 
 #navigation > li:hover:nth-child(5) > a:hover, 
 #navigation > li:hover:nth-child(5) > a{
-    background-color: #8EB8C8;
+    background-color: #8EB8C8 !important;
 }
 /* End of color changes for the navigation links, started on line 25 */
 
@@ -122,17 +127,23 @@ footer>figure, footer>div>figure {
     color: #EBAD21;
 }
 #brightcove-video {
+    overflow: hidden;
+    
     margin-bottom: 10px;
+}
+
+#myExperience {
+    min-height: 213px;
 }
 /* End of width and color change to home page. */
 
 /*Changes all h1 to yellow*/
 h1 {
-    color:#ebad21;
+    color:#ebad21 !important;
 }
 /*Changes all h2 to brown*/
 h2 {
-    color: #503A37;
+    color: #503A37 !important;
 }
 
 /*This is to get the thumbnails for the Seasons page */
@@ -141,8 +152,8 @@ h2 {
     text-align: center;
     width: 23%;
     position: relative;
-    margin: 10px 20px 30px 10px;
-    height: 200px;
+    margin: 10px 20px 10px 10px;
+    height: 220px;
 }
 
 .seasons_thumbs figcaption {
@@ -165,4 +176,14 @@ h2 {
     display: block;
     clear: both;
     margin-top: 30px;
+}
+
+/* To get the social media links to align vertically */
+.social_list {
+    margin-top: 15px;
+}
+
+/* change the resize disclaimer */
+#resize_message {
+    font-style: italic;
 }
