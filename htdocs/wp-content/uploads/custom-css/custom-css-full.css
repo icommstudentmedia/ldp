@@ -21,6 +21,11 @@ body {
 background-color: #503a37 !important;
 }
 
+#navigation ul li a, #navigation li ul {
+    background-color: #503a37;
+    color: #fff;
+}
+
 /*
     These next few rules are to change the color at the bottom of the navigation
     links according to the style guide.  They each have their own rule because
@@ -178,7 +183,16 @@ h2 {
     margin-top: 30px;
 }
 
-/* To get the social media links to align vertically */
+/* To get the social media links to align vertically, as well as
+   other footer alignment and display changes. */
+#footer {
+    overflow: hidden;
+}
+
+.fr {
+    position: relative;
+    top: -20px;
+}
 .social_list {
     margin-top: 15px;
 }
@@ -186,4 +200,14 @@ h2 {
 /* change the resize disclaimer */
 #resize_message {
     font-style: italic;
+}
+
+/* Input type for email wasn\'t showing a box, this fixed that. */
+input[type=email] {
+    background-color: #fdfdfd;
+    border: 1px solid #e5e5e5;
+    line-height: 20px;
+    height: 35px;
+    width: 100%;
+    padding: 5px 10px;
 }
