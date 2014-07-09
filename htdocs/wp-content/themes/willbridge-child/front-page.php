@@ -14,7 +14,7 @@ if($latestPost->have_posts()) :
    $latestPost->the_post();
 ?>
 <div id="front_page_content">
-<h1><?php the_title(); ?></h1>
+<h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
 
    <?php the_content(); ?>
    <p id="resize_message">* If the video did not display correctly, please resize your browser to get the 

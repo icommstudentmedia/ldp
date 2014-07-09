@@ -50,7 +50,7 @@ if (!$page_layout) {
       
       if (get_the_content() != '') {
          echo '<div class="entry-content">';
-         
+
          the_content();
          
          echo '</div>';

@@ -57,7 +57,7 @@ $selected_order_type = get_post_meta(get_the_ID(), 'selected_order_type', true);
          echo '<div class="entry-content">';
          
          the_content();
-         
+
          echo '</div>';
          
          wp_link_pages('before=<div class="subpage_nav"><strong>' . __('Pages', 'cmsmasters') . ':</strong>&link_before= [ &link_after= ] &after=</div>');

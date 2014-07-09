@@ -32,8 +32,8 @@ if ($season_end > $season_start) {
                $myposts->the_post();
                ?>
                <figure class="seasons_thumbs">
-                  <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?></a>
-                  <figcaption><h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2></figcaption>
+                  <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
+                  <figcaption><h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2></figcaption>
                </figure>
                <?php
             }
