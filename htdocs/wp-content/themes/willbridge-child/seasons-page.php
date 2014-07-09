@@ -9,8 +9,9 @@ $season_start = htmlspecialchars($_GET["seasonstart"]);
 $season_end = htmlspecialchars($_GET["seasonend"]);
 
 $seasons = array();
-
-if ($season_end > $season_start) {
+/* Once Season 22 is available, change this to leave off the Or clause.
+   Also, change the link in Wordpress to season_end=22 */
+if ($season_end > $season_start || $season_start == 21) {
    for ($i = $season_start; $i <= $season_end; $i++) { 
       array_push($seasons, "Season ".$i);
    }
