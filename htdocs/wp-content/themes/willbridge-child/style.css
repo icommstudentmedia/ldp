@@ -142,7 +142,7 @@ footer>figure, footer>div>figure {
 
 /* This is to change the distance that the sub menu under Seasons so that there
    is no longer a gap */
-#navigation > li >ul {
+#navigation > li > ul {
     top: 63px !important;
 }
 
@@ -252,6 +252,7 @@ input[type=email] {
 
 /***************** RESPONSIVE LAYOUT SECTION *******************/
 
+/* ---------- Mobile (Note: Design for a width less than 541px) ---------- */
 @media only screen and (max-width: 540px) {
   /* To change the little nav icon background color and bring in the
      sandwich bars image. */
@@ -290,5 +291,60 @@ input[type=email] {
      from the sidebar section. */
   #sidebar > .social_list {
     display: none;
+  }
+
+  /* This is to change the distance that the sub menu under Seasons so that there
+   is no longer a gap */
+  .navi_scrolled #navigation > li > ul {
+      top: 0px !important;
+  }
+}
+
+/* ---------- Small Tablet & Mobile (Note: Design for a width less than 768px) ---------- */
+@media only screen and (max-width: 767px) {
+  /* Because the sidebar gets pushed down to the footer, the social media links
+     right next to eachother and does not look correct, so this gets rid of them
+     from the sidebar section. */
+  #sidebar > .social_list {
+    display: none;
+  }
+
+  /* This is to get the bottom footer to look like it does in the full screen
+     format with no overlays or hidden image parts. */
+  .fr {
+    margin-top: 40px;
+    margin-right: 30px;
+    float: right !important;
+  }
+
+  /* Next two rules are to make the different divs high enough to show everything
+     that is in the footer divs. */
+  .footer_inner {
+    height: 120px !important;
+  }
+
+  #footer {
+    height: 140px !important;
+  }
+}
+
+/* ---------- Small Monitor (Note: Design for a width less than 1024px) ---------- */
+
+@media only screen and (max-width: 1023px) {
+  /* Next two rules are to make the different divs high enough to show everything
+     that is in the footer divs. */
+  .footer_inner {
+    height: 120px !important;
+  }
+
+  #footer {
+    height: 140px !important;
+  }
+}
+
+/* Just to fix the overlap with the go to top link in the footer */
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  .fr {
+    margin-right: 40px;
   }
 }
