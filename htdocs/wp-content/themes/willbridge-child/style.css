@@ -16,7 +16,7 @@ Description: This is to include specific templates that won't get lost with upda
              The Willbridge theme has a special responsive (adaptive) design that alows it to 
              adapt for any device screen resolution, besides this theme use modern html5 template, 
              css3 rules and microformats for better SEO.
-Version: 0.1
+Version: 1.0
 Tags: dark, light, white, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, 
       featured-images, sticky-post, custom-colors, post-formats, responsive-slider, custom-menu, 
       theme-options, slider-manager, form-builder, custom-widgets, custom-shortcodes, 
@@ -27,6 +27,8 @@ Tags: dark, light, white, one-column, two-columns, left-sidebar, right-sidebar, 
 For older themes, and themes that do not use wp_enqueue_style() to enqueue their stylesheet,
 use the following line where twentyfourteen is the name of the directory where the theme 
 resides:
+
+-- This is needed.
 */
 @import url("../willbridge/style.css");
 
