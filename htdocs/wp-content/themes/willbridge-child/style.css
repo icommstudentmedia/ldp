@@ -221,13 +221,14 @@ h2, h2 a {
 
 /* To get the social media links to align vertically, as well as
    other footer alignment and display changes. */
-#footer {
+#footer, .footer_inner {
     overflow: hidden;
 }
 
 .fr {
     position: relative;
     top: -20px;
+    overflow: hidden;
 }
 .social_list {
     margin-top: 15px;
@@ -247,4 +248,47 @@ input[type=email] {
     height: 35px;
     width: 100%;
     padding: 5px 10px;
+}
+
+/***************** RESPONSIVE LAYOUT SECTION *******************/
+
+@media only screen and (max-width: 540px) {
+  /* To change the little nav icon background color and bring in the
+     sandwich bars image. */
+  .resp_navigation {
+      background: #ebad21 url(images/resp_navi_bg.png) no-repeat 50% 50%;
+  }
+
+  /* To get rid of the brown color over the words on hover or static. */
+  #navigation > li:hover > a > span, 
+  #navigation > li > a:hover > span,
+  #navigation > li > a > span {
+    padding: 0;
+    background: none !important;
+  }
+
+  /* This is to get the bottom footer to look like it does in the full screen
+     format with no overlays or hidden image parts. */
+  .fr {
+    margin-top: 40px;
+    margin-right: 30px;
+    float: right !important;
+  }
+
+  /* Next two rules are to make the different divs high enough to show everything
+     that is in the footer divs. */
+  .footer_inner {
+    height: 120px !important;
+  }
+
+  #footer {
+    height: 140px !important;
+  }
+
+  /* Because the sidebar gets pushed down to the footer, the social media links
+     right next to eachother and does not look correct, so this gets rid of them
+     from the sidebar section. */
+  #sidebar > .social_list {
+    display: none;
+  }
 }
